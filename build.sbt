@@ -1,4 +1,3 @@
-import Dependencies._
 
 ThisBuild / scalaVersion := "2.13.4"
 ThisBuild / version := "0.1.0"
@@ -14,6 +13,8 @@ lazy val root = (project in file("."))
       "org.platanios" %% "tensorflow-examples" % "0.5.10",
       "org.platanios" %% "tensorflow-jni" % "0.5.10",
       "org.platanios" %% "tensorflow" % "0.5.10",
+//      "org.platanios" %% "tensorflow" % "0.5.10" classifier "darwin"
       "org.platanios" %% "tensorflow" % "0.5.10" classifier "linux"
+//      "org.platanios" %% "tensorflow" % "0.5.10" classifier "windows"
     )
   )

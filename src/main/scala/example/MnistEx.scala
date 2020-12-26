@@ -13,7 +13,7 @@
  * the License.
  */
 
-package examples
+package example
 
 import org.platanios.tensorflow.api._
 import org.platanios.tensorflow.api.core.types.UByte

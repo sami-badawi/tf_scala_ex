@@ -43,3 +43,8 @@ sbt run
 * windows
 
 Not sure if there is a more general way to specify platform in SBT file than the code above.
+
+## JDK Version
+
+Part of tensorflow_scala is compiled for Java 11 and will not run under Java 8.
+So starter this project will have the same constraint.

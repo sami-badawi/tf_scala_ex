@@ -29,6 +29,7 @@ build
 
 # other?
 .bloop
+.bsp
 .metals
 .vscode
 .history

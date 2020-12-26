@@ -1,0 +1,42 @@
+# sbt
+# (may want to keep parts of 'project')
+bin/
+project/
+target/
+build/
+
+# data
+datasets/MNIST
+temp/mnist-mlp
+
+# eclipse
+build
+.classpath
+.project
+.settings
+.worksheet
+
+# intellij idea
+*.log
+*.iml
+*.ipr
+*.iws
+.idea
+
+# mac
+.DS_Store
+
+
+# other?
+.bloop
+.metals
+.vscode
+.history
+.scala_dependencies
+.cache
+.cache-main
+
+
+#general
+*.class
+
